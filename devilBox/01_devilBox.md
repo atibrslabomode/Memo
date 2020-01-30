@@ -31,3 +31,9 @@ Création de htdocs dans le dossier du Projet
 ```shell
 mkdir htdocs
 ```
+
+### Modifier sa version php de Devil Box
+
+```
+sudo nano .env
+```
