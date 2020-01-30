@@ -37,3 +37,9 @@ mkdir htdocs
 ```
 sudo nano .env
 ```
+
+### Réglages Devil Box
+Fichier de réglages des sous domaines de devilbox
+```
+sudo nano /etc/hosts/
+```
