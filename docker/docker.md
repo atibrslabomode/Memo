@@ -69,3 +69,16 @@ docker run -p <port exterieur:port interieur> <nom de l'image>
 
 
 docker run -d --name some-ghost -p 3001:2368 -v /path/to/ghost/blog:/var/lib/ghost/content ghost:1-alpine
+
+### Acceder a mysql via docker
+
+Taper la commande pour acceder au container mysql
+```
+docker exec -it <containermysqlid> bash -l
+```
+
+Ensuite taper la commande pour acceder a mysql
+```
+mysql -u root -h mysql -p <DB_Name>
+p@ssword
+```
